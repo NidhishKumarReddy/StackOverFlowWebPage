@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <title>StackOverFlow</title>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="content-nav">
+        <div>
+          <a href="index.html">
+            <img
+              class="nav-logo"
+              src="logo-stackoverflow.png"
+              alt="logo-stackoverflow"
+            />
+          </a>
+        </div>
+        <div>
+          <a class="nav-link" href="index.html">About</a>
+        </div>
+        <div>
+          <a class="nav-link" href="index.html">Products</a>
+        </div>
+        <div>
+          <a class="nav-link" href="index.html">For Teams</a>
+        </div>
+        <div class="search">
+          <i class="bi bi-search"></i>
+          <input
+            type="text"
+            name="search"
+            id="search"
+            placeholder="Search..."
+          />
+        </div>
+        <div>
+          <button class="login">Log in</button>
+          <button class="signup">Sign up</button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- LeftSidebar -->
+    <nav class="leftSidebar">
+      <ol>
+        <li><a class="ol-li home-a" href="index.html">Home</a></li>
+      </ol>
+      <ol>
+        <li class="ol-li">Public</li>
+        <ul>
+          <li><a class="ul-li-a" href="index.html">Questions</a></li>
+          <li><a class="ul-li-a" href="index.html">Tags</a></li>
+          <li><a class="ul-li-a" href="index.html">Users</a></li>
+        </ul>
+      </ol>
+      <ol>
+        <li class="ol-li">Collectives</li>
+        <ul>
+          <li><a class="ul-li-a" href="index.html">Explore Collectives</a></li>
+        </ul>
+      </ol>
+
+      <ol>
+        <li class="ol-li">Find a Job</li>
+        <ul>
+          <li><a class="ul-li-a" href="index.html">Jobs</a></li>
+          <li><a class="ul-li-a" href="index.html">Companies</a></li>
+        </ul>
+      </ol>
+      <ol>
+        <li class="ol-li">Teams</li>
+        <li>
+          <div class="teams-card">
+            <p class="teams-body">
+              <span>Stack Overflow for Teams </span>– Collaborate and share
+              knowledge with a private group.
+            </p>
+            <img
+              class="teams-img"
+              src="https://cdn.sstatic.net/Img/teams/teams-illo-free-sidebar-promo.svg?v=47faa659a05e"
+              alt=""
+            />
+            <button class="teams-button-1">Create a free Team</button>
+            <button class="teams-button-2">What is Teams?</button>
+          </div>
+        </li>
+      </ol>
+    </nav>
+
+    <script src="index.js"></script>
+  </body>
+</html>
